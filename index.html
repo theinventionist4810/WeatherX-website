@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>WeatherX</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+
+  <!-- font-awesome icons -->
+  <script src="https://kit.fontawesome.com/dfecf739eb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="nav navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">WeatherX</a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#specification">Specifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">About US</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section class="container">
+    <table>
+      <tr>
+        <td>
+          <img class="im" src="sunny.png">
+        </td>
+
+        <center>
+          <td>
+            <div class="time">
+
+            </div>
+            <div class="temp">
+              °C
+            </div>
+            <div class="summary"></div>
+            <div class="location"></div>
+          </td>
+      </tr>
+    </table>
+    </center>
+  </section>
+  <!-- <div class="sunny"></div> -->
+
+  <hr>
+  <center>
+    <div class="forecast">
+      <table>
+        <tr>
+          <td class="after3hoursicon"></td>
+          <td class="after6hoursicon"></td>
+          <td class="after9hoursicon"></td>
+          <td class="after12hoursicon"></td>
+        </tr>
+        <tr>
+          <th class="after3hourstime"></th>
+          <th class="after6hourstime"></th>
+          <th class="after9hourstime"></th>
+          <th class="after12hourstime"></th>
+        </tr>
+        <tr>
+          <td class="after3hrs"></td>
+          <td class="after6hrs"></td>
+          <td class="after9hrs"></td>
+          <td class="after12hrs"></td>
+        </tr>
+
+
+        <tr>
+          <th class="after1day"></th>
+          <th class="after2day"></th>
+          <th class="after3day"></th>
+          <th class="after4day"></th>
+        </tr>
+        <tr>
+          <td class="after1daytemp"></td>
+          <td class="after2daytemp"></td>
+          <td class="after3daytemp"></td>
+          <td class="after4daytemp"></td>
+        </tr>
+
+      </table>
+  </center>
+  <hr>
+  <div class="button"><a href="http://localhost:3000/" target="_blank"><button class="btn">WEBSITE</button></a></div>
+  <section>
+
+  </section>
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">YOUR BROWSER. YOUR WEATHER.</h2>
+    <p>Main WeatherX features</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-3 col-md-6 col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/clouds.png" class="card-img-top" alt="...">
+            <h2 class="price-text">Full Report</h2>
+            <p>The most comprehensive</p>
+            <p>weather data to deliver</p>
+            <p>forecasts with Superior Accuracy.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-3 col-md-6 col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/sun.png" class="card-img-top" alt="...">
+            <h2 class="price-text">UV index</h2>
+            <p>Get the hourly and daily UV</p>
+            <p>forecast index for your city.</p>
+            <p>Keeping yourself safe in the sun.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-3 col-md-6 col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/temperature.png" class="card-img-top" alt="...">
+            <h2 class="price-text">Accufeel</h2>
+            <p>An accurate Feels Like</p>
+            <p>temperature. It’s tells you how</p>
+            <p>the temperature feels.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-3 col-md-6 col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/solar-system.png" class="card-img-top" alt="...">
+            <h2 class="price-text">Solar Time</h2>
+            <p>Find the time of sunset and</p>
+            <p>sunrise, and also true noon,</p>
+            <p>from any location.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    </div>
+
+  </section>
+
+  <section class="details" id="specification">
+    <div class="heading-detail">
+      <h2>ACCURATE FORECAST. LOCAL TO GLOBAL</h2>
+      <p>Here's why WeatherX Beats Other Apps</p>
+      <br>
+      <br>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h5>DETAILED FORECAST</h5>
+        <p class="details-p">7-day and 24-hour weather forecasts including, temperature precipitation, UV Index and more
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <h5>ADVANCED MAP</h5>
+        <p class="details-p">The precipitation forecast map around the world. </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h5>REAL-TIME BADGE</h5>
+        <p class="details-p">Displays real time temperature / UV Index in browser toolbar. </p>
+      </div>
+      <div class="col-lg-6">
+        <h5>GLOBAL COVERAGE</h5>
+        <p class="details-p">Access current and forecast weather data for any location on Earth including over +200,000
+          cities worldwide. </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h5>1-CLICK INSTALL</h5>
+        <p class="details-p">Extremely easy set up, actually no setup needed other than open the app, location
+          automatically detect. </p>
+      </div>
+      <div class="col-lg-6">
+        <h5>SLEEK DESIGN</h5>
+        <p class="details-p">Simple, clean sleek, Minimalist weather app for real life. </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="footer" id="footer">
+      <i class="social-icon fab fa-github"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p class="footer-p">© Copyright 2021 WeatherX</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

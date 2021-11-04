@@ -1,0 +1,237 @@
+body {
+    text-align: center;
+    background-color:   #90d3e8;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+  }
+
+  h2{
+   padding-bottom: 15px;; 
+  }
+
+  p{
+    color:#fff;
+    font-family: "Montserrat-light", sans-serif;
+    line-height: 0.7rem;
+
+  }
+  
+  /* headings */
+  .big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* containers */
+  .container-fluid {
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  .colored-section {
+    background-color: #90d3e4;
+  }
+    
+  /* Navigation bar */
+  .nav {
+    padding-bottom: 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+  }
+  
+  .nav-item {
+    padding: 0px 20px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light", sans-serif;
+  }
+  
+  /* title section */
+  #title .container-fluid {
+    padding: 3% 10% 7%;
+    /* top left-right bottom */
+    text-align: left;
+    height: 150px;
+  }
+    
+
+  /* pricing section */
+  .white-section{
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .card-body{
+    background-color: rgba(61, 76, 104);
+    padding-bottom: 40px;;
+    font-size: small;
+    
+  }
+  #pricing {
+    padding: 7%;
+  }
+  
+  .price-text {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  .card-img-top{
+    width: auto;
+    padding: 20px 20px;
+  }
+  
+  /* detail section */
+  .heading-detail{
+    color: #fff;
+  }
+
+  .details{
+    background-image: url("../images/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10% 15%;
+  }
+
+  h5{
+    text-align: left;
+    color: #fff;
+  }
+
+  .details-p{
+    text-align: left;
+    line-height: 2rem;
+  }
+  .row{
+    padding-left: 70px;
+    padding-bottom: 20px;
+  }
+
+  /* footer */
+  .footer{
+    padding: 5%;
+  }
+  
+  .footer-p{
+    color: black;
+  }
+
+  .social-icon {
+    margin: 20px 10px;
+  }
+
+
+
+  /* EXTENSION CSS */
+    /* EXTENSION CSS */
+      /* EXTENSION CSS */
+        /* EXTENSION CSS */
+
+            * {
+              margin: 0;
+              padding: 0;
+              /* box-sizing: border-box; */
+            }
+
+            body {
+          
+         
+              align-items: center;
+              justify-content: center;
+              font-size: 2rem;
+              font-family: sans-serif;
+              color: rgb(7, 9, 10);
+              padding-top: 20px;
+             
+              /* background-color: #0093E9; */
+              /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%, rgba(255, 255, 255, 1)0%); */
+
+              background-blend-mode: lighten;
+
+            }
+
+            .container {
+
+              
+              text-align: center;
+              padding-left: 20rem;
+              padding-bottom: 10px;
+              /* box-shadow: 5px 10px 8px #666666; */
+
+            }
+
+            .temp {
+              font-size: larger;
+              font-weight: bold;
+            }
+
+            .summary {
+              font-size: smaller;
+            }
+
+            .forecast {
+              font-size: smaller;
+              padding-bottom: 10px;
+            }
+
+            tr,
+            th,
+            td {
+              padding-left: 20px;
+            }
+
+            .btn {
+              box-shadow: 5px 2px 7px #666666;
+              font-family: Arial;
+              color: #ffffff;
+              font-size: 22px;
+              background: black;
+              padding: 10px 40px 11px 40px;
+              text-decoration: none;
+              width: 100%;
+              margin-bottom: 15px;
+            }
+
+            .btn:hover {
+              background: white;
+              text-decoration: none;
+            }
+
+
+            .im {
+              height: 200px;
+              width: 200px;
+              display: block;
+              margin-right: 80px;
+              padding-right: 30px;
+
+
+            }
+
+
+            .after1daytemp,
+            .after2daytemp,
+            .after3daytemp,
+            .after4daytemp {
+              font-size: smaller;
+            }
