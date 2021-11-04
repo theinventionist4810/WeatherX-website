@@ -140,13 +140,13 @@ window.addEventListener("load", () => {
                     let iconafter12hrs = data.list[4].weather[0].icon;
 
                     after3hoursicon.innerHTML =
-                        `<img src="icons/${iconafter3hrs}@2x.png" style= 'height:2rem'/>`;
+                        `<img src="icons/${iconafter3hrs}@2x.png" style= 'height:4rem'/>`;
                     after6hoursicon.innerHTML =
-                        `<img src="icons/${iconafter6hrs}@2x.png" style= 'height:2rem'/>`;
+                        `<img src="icons/${iconafter6hrs}@2x.png" style= 'height:4rem'/>`;
                     after9hoursicon.innerHTML =
-                        `<img src="icons/${iconafter9hrs}@2x.png" style= 'height:2rem'/>`;
+                        `<img src="icons/${iconafter9hrs}@2x.png" style= 'height:4rem'/>`;
                     after12hoursicon.innerHTML =
-                        `<img src="icons/${iconafter12hrs}@2x.png" style= 'height:2rem'/>`;
+                        `<img src="icons/${iconafter12hrs}@2x.png" style= 'height:4rem'/>`;
 
                 });
 
