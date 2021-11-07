@@ -208,12 +208,13 @@ body {
               background: black;
               padding: 10px 40px 11px 40px;
               text-decoration: none;
-              width: 10%;
+              width: 20%;
               margin-bottom: 15px;
               padding left: 50px;
             }
 
             .btn:hover {
+                width: 20%;
               background: white;
               text-decoration: none;
             }
